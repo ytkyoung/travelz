@@ -172,6 +172,7 @@ const FooterWrapper = styled.section`
   @media (max-width: 775.98px) {
     background: #00d9ff;
     margin: 0 auto;
+    padding: 0;
     .footer-main {
       flex-direction: column;
     }

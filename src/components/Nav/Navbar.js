@@ -31,6 +31,7 @@ const Nav = styled.nav`
   @media (max-width: 768px) {
     background: #00f7ff;
     min-height: 10vh;
+    padding: 0;
   }
 `;
 export default Navbar;
