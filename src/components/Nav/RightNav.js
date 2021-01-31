@@ -121,6 +121,7 @@ const NavStyle = styled.div`
     color: #9cf5a6;
   }
   @media (max-width: 768px) {
+
   }
   // Small devices (landscape phones, less than 768px)
   @media (min-width: 767.98px) {
@@ -188,7 +189,11 @@ const Ul = styled.div`
     width: 100vw;
     padding-top: 10vh;
     transition: transform 0.3s ease-in-out;
-
+    h2 > a:before {
+      top: 30px;
+      left: 0;
+      background: #9cf5a6;
+    }
     .menu {
       flex: 1 1 30%;
       display: flex;
@@ -205,6 +210,7 @@ const Ul = styled.div`
     a {
       font-size: 3rem;
     }
+
     .login {
       margin-top: 2rem;
       button {
