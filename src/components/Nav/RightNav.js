@@ -121,7 +121,27 @@ const NavStyle = styled.div`
     color: #9cf5a6;
   }
   @media (max-width: 768px) {
-    overflow: hidden;
+  }
+  // Small devices (landscape phones, less than 768px)
+  @media (min-width: 767.98px) {
+    background: blue;
+    width: 90%;
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @media (min-width: 991.98px) {
+    background: green;
+    width: 90%;
+
+  // Large devices (desktops, less than 1200px)
+  @media (min-width: 1199.98px) {
+    background: yellow;
+    width: 70%;
+  }
+  // Large devices (desktops, less than 1200px)
+  @media (min-width: 1679.98px) {
+    background: magenta;
+    width: 50%;
   }
 `;
 
@@ -144,6 +164,14 @@ const Ul = styled.div`
     align-items: center;
     button {
       margin-right: 2rem;
+    }
+    & button:nth-child(1) {
+      background-color: transparent;
+      color: #fb8f1d;
+      &:hover {
+        background-color: #fb8f1d;
+        color: #fff;
+      }
     }
   }
   @media (max-width: 768px) {

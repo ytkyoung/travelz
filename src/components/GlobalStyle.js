@@ -104,10 +104,9 @@ const GlobalStyle = createGlobalStyle`
     font-weight: light;
   }
 
-
   button {
-    background-color: transparent;
-    color: #FB8F1D;
+    background-color: #FB8F1D;
+    color: #fff;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -122,8 +121,8 @@ const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
     }
     &:hover{
-      background-color: #FB8F1D;
-      color: white;
+      background-color: transparent;
+      color: #FB8F1D;
     }
     &:hover a{
       color: white;

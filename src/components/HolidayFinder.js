@@ -117,7 +117,6 @@ const Finder = styled(Description)`
   }
   .finder-intro {
     flex: 1 1 50%;
-
     background: magenta;
   }
   .finder-img {
@@ -160,6 +159,9 @@ const Finder = styled(Description)`
   @media (max-width: 775.98px) {
     background: red;
     flex-direction: column;
+    h1 {
+      font-size: 4.4rem;
+    }
     .finder-intro {
       flex: 1 1 100%;
       order: 1;
