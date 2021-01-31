@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "location": "Raja Ampat",
+    "country": "Indonesia",
+    "img": "images/Raja-Ampat.png"
+  },
+  {
+    "id": 1,
+    "location": "Fanjingshan",
+    "country": "China",
+    "img": "images/Fanjingshan.png"
+  },
+  {
+    "id": 2,
+    "location": "Vevey",
+    "country": "Switzerland",
+    "img": "images/Vevey.png"
+  },
+  {
+    "id": 3,
+    "location": "Skadar",
+    "country": "Montenegro",
+    "img": "images/Skadar.png"
+  }
+]

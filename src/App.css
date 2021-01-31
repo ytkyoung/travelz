@@ -1,0 +1,10 @@
+body {
+  background: #333333;
+  color: #ffffff;
+}
+a {
+  color: inherit;
+}
+a:active {
+  color: lime;
+}
