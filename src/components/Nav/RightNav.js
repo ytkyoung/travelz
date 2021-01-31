@@ -53,7 +53,7 @@ const RightNav = (props) => {
               </NavLink>
             </h2>
           </li>
-          <li>
+          {/* <li>
             <h2>
               <NavLink
                 to="/contact"
@@ -63,7 +63,7 @@ const RightNav = (props) => {
                 Contact
               </NavLink>
             </h2>
-          </li>
+          </li> */}
         </ul>
         <div className="login">
           <button>Login</button>
