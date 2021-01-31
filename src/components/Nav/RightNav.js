@@ -78,12 +78,12 @@ const NavStyle = styled.div`
   width: 50%;
   z-index: 30;
   .selected {
-    color: yellow;
-    /* text-decoration-line: underline;
-    text-underline-offset: 4px; */
+    color: #9cf5a6;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
   }
-  h2,
-  h3 {
+  h2 {
     position: relative;
     background: #0d757d;
     width: 100%;
@@ -93,8 +93,7 @@ const NavStyle = styled.div`
     color: rgba(0, 0, 0, 0.4);
     margin: 0rem auto 0;
   }
-  h2 > a,
-  h3 > a {
+  h2 > a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.4);
     z-index: 1;
@@ -117,6 +116,9 @@ const NavStyle = styled.div`
   h2 > a:focus:before {
     visibility: visible;
     transform: scaleX(1);
+  }
+  a:hover {
+    color: #9cf5a6;
   }
   @media (max-width: 768px) {
     overflow: hidden;
