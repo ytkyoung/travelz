@@ -28,7 +28,8 @@ const HomeAbout = () => {
 };
 
 const DescriptionHome = styled(Description)`
-  width: 90%;
+  width: 80%;
+  padding: 0 5%;
   margin-top: 10%;
   margin-bottom: 10rem;
   .teaser-img {
@@ -51,6 +52,7 @@ const DescriptionHome = styled(Description)`
     }
   }
   @media (max-width: 775.98px) {
+    width: 100%;
     background: red;
     flex-direction: column;
     .description {

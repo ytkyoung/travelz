@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: var(--font-inter);
     margin: 0 auto;
-    @media (max-width: 575.98px) {
+    /* @media (max-width: 575.98px) {
 
     }
 
@@ -49,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
     // Large devices (desktops, less than 1200px)
     @media (min-width: 1679.98px) {
       width: 80%;
-    }
+    } */
   }
 
 

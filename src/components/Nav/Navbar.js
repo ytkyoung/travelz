@@ -23,6 +23,7 @@ const Nav = styled.nav`
   margin: auto;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
   padding: 0% 5%;
   .logo {
     padding: 15px 0;

@@ -100,6 +100,7 @@ const HolydayFinder = () => {
 const Finder = styled(Description)`
   margin-bottom: 10vh;
   width: 90%;
+  padding: 0 5%;
   h1 {
     font-size: 6.4rem;
   }

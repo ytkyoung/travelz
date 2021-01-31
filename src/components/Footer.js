@@ -121,7 +121,7 @@ const FooterWrapper = styled.section`
   background: #f9f9fb;
   margin: 0 auto;
   margin-top: 10vh;
-
+  padding: 0 5%;
   .footer-main {
     padding: 0% 5%;
     margin: 0 auto;
@@ -177,6 +177,7 @@ const FooterWrapper = styled.section`
     }
     .destinations {
       flex: 1 1 20%;
+      margin-top: 4rem;
     }
     .shop {
       flex: 1 1 20%;
